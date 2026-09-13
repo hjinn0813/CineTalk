@@ -77,7 +77,7 @@ jobs:
           - 브랜치: ${{ github.ref_name }}
           - 시간: ${CURRENT_TIME}
           
-          보안 취약점에 대한 추가 조치가 필요합니다.\"
+          보안 취약점에 대한 추가 조치가 필요합니다."
 
           jq -n \
             --arg content "$MESSAGE" \
